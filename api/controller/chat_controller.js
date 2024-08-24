@@ -33,33 +33,59 @@ class chatCotroller
 
     static getInitalChats=async(req,res)=>{
         try {
-            const firstDocs = await Chat_db.aggregate([
-                // Sort by chatId and any other criteria (e.g., by creation time)
-                { $sort: { chatId: 1, _id: 1 } },
-                
-                // Group by chatId and pick the first document in each group
-                {
-                    $group: {
-                        _id: "$chatId",
-                        firstDoc: { $first: "$$ROOT" }
-                    }
-                },
-    
-                // Optionally, replace the root document with the firstDoc for easier access
-                {
-                    $replaceRoot: {
-                        newRoot: "$firstDoc"
-                    }
+            const { email } = req.body; // Or req.body if email is sent in the body
+
+        if (!email) {
+            return res.status(400).json({ error: 'Email parameter is required' });
+        }
+
+        const firstDocs = await Chat_db.aggregate([
+            {
+                $match: { email: email }
+            },
+
+            { $sort: { chatId: 1, _id: 1 } },
+
+            {
+                $group: {
+                    _id: "$chatId",
+                    firstDoc: { $first: "$$ROOT" }
                 }
-            ]);
-    
-            return res.json(firstDocs);
+            },
+
+            {
+                $replaceRoot: {
+                    newRoot: "$firstDoc"
+                }
+            }
+        ]);
+
+        return res.json(firstDocs);
 
 
         } catch (error) {
             console.log(error)
         }
     }
+
+
+    static getSpecificChatMessages=async(req,res)=>{
+        try {
+
+            const {chatId,email}=req.body
+            const chats=await Chat_db.find({
+                chatId:chatId,
+                email:email 
+            })
+
+            return res.json(chats)
+            
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+
 }
 
 export default chatCotroller
