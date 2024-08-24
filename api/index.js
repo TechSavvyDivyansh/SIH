@@ -19,8 +19,10 @@ const app=express()
 app.use(express.json())
 app.use(cors());
 
-app.listen('https://doj-backend.onrender.com',()=>{
-    console.log("server running on port 4000!!")
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}!!`)
 })
 
 app.use('/api',ChatRouter)
