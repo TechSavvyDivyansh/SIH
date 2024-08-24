@@ -1,0 +1,186 @@
+2024-08-24 18:04:41,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-24 18:04:41,653 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-24 18:05:45,608 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-24 18:05:45,608 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-24 18:07:14,171 - INFO - User Input: how to pay challan
+2024-08-24 18:07:20,503 - INFO - Bot Response (General): **Online Payment**
+
+**1. Visit the eChallan Portal:**
+* https://echallan.parivahan.gov.in/
+
+**2. Search for Challan:**
+* Enter your challan number or vehicle registration number.
+* Click on "Search".
+
+**3. Select Payment Option:**
+* Choose your preferred payment method (e.g., Debit Card, Credit Card, Net Banking).
+
+**4. Enter Payment Details:**
+* Provide the required payment information and click on "Pay Now".
+
+**5. Confirmation:**
+* Once the payment is successful, you will receive a confirmation message and an e-receipt.
+
+**Offline Payment**
+
+**1. Visit a Traffic Police Station:**
+* Go to the nearest traffic police station with your challan.
+
+**2. Present Challan:**
+* Present your challan to the officer at the counter.
+
+**3. Make Payment:**
+* Pay the fine amount using cash or debit/credit card.
+
+**4. Receipt:**
+* You will receive a receipt as proof of payment.
+
+**Additional Information:**
+
+* You can pay traffic challans online within 60 days from the date of issue.
+* Late payments may incur additional penalties.
+* Keep a copy of the challan and payment receipt for future reference.
+* In case of any discrepancies or issues, contact the traffic police department directly.
+2024-08-24 18:07:20,504 - INFO - 127.0.0.1 - - [24/Aug/2024 18:07:20] "POST /chat HTTP/1.1" 200 -
+2024-08-24 18:08:57,289 - INFO - User Input: how to pay challan
+2024-08-24 18:09:02,589 - INFO - Bot Response (General): **How to Pay Traffic Challan Online:**
+
+1. **Visit the eChallan Portal:**
+   - https://echallan.parivahan.gov.in/
+2. **Search for Challan:**
+   - Enter your challan number or vehicle registration number.
+   - Click on "Search".
+3. **Select Payment Option:**
+   - Choose your preferred payment method (e.g., Debit Card, Credit Card, Net Banking).
+4. **Enter Payment Details:**
+   - Provide the required payment information and click on "Pay Now".
+5. **Confirmation:**
+   - Once the payment is successful, you will receive a confirmation message and an e-receipt.
+
+**How to Pay Traffic Challan Offline:**
+
+1. **Visit a Traffic Police Station:**
+   - Go to the nearest traffic police station with your challan.
+2. **Present Challan:**
+   - Present your challan to the officer at the counter.
+3. **Make Payment:**
+   - Pay the fine amount using cash or debit/credit card.
+4. **Receipt:**
+   - You will receive a receipt as proof of payment.
+
+**Additional Information:**
+
+* You can pay traffic challans online within 60 days from the date of issue.
+* Late payments may incur additional penalties.
+* Keep a copy of the challan and payment receipt for future reference.
+* In case of any discrepancies or issues, contact the traffic police department directly.
+2024-08-24 18:09:02,589 - INFO - 127.0.0.1 - - [24/Aug/2024 18:09:02] "POST /chat HTTP/1.1" 200 -
+2024-08-24 18:09:37,463 - INFO - User Input: how to pay challan
+2024-08-24 18:09:42,929 - INFO - Bot Response (General): **Online Payment:**
+
+**Step 1: Visit the eChallan Portal**
+* Go to https://echallan.parivahan.gov.in/.
+
+**Step 2: Search for Challan**
+* Enter your challan number or vehicle registration number.
+* Click on "Search".
+
+**Step 3: Select Payment Option**
+* Choose your preferred payment method (e.g., Debit Card, Credit Card, Net Banking).
+
+**Step 4: Enter Payment Details**
+* Provide the required payment information and click on "Pay Now".
+
+**Step 5: Confirmation**
+* Once the payment is successful, you will receive a confirmation message and an e-receipt.
+
+**Offline Payment:**
+
+**Step 1: Visit a Traffic Police Station**
+* Go to the nearest traffic police station with your challan.
+
+**Step 2: Present Challan**
+* Present your challan to the officer at the counter.
+
+**Step 3: Make Payment**
+* Pay the fine amount using cash or debit/credit card.
+
+**Step 4: Receipt**
+* You will receive a receipt as proof of payment.
+
+**Additional Information:**
+
+* You can pay traffic challans online within 60 days from the date of issue.
+* Late payments may incur additional penalties.
+* Keep a copy of the challan and payment receipt for future reference.
+* In case of any discrepancies or issues, contact the traffic police department directly.
+2024-08-24 18:09:42,930 - INFO - 127.0.0.1 - - [24/Aug/2024 18:09:42] "POST /chat HTTP/1.1" 200 -
+2024-08-24 18:16:19,290 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-24 18:16:19,290 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-24 18:16:59,026 - INFO - User Input: what is the process of car ownership registeration
+2024-08-24 18:16:59,026 - INFO - Bot Response: Off-topic query redirected
+2024-08-24 18:16:59,026 - INFO - 127.0.0.1 - - [24/Aug/2024 18:16:59] "POST /chat HTTP/1.1" 200 -
+2024-08-24 18:17:17,004 - INFO - User Input: how to file a court case
+2024-08-24 18:17:32,223 - INFO - Bot Response (General): **Step 1: Determine the Type of Case**
+
+* Identify the specific type of case you want to file (e.g., divorce, custody dispute, contract breach).
+* Research the relevant laws and court rules governing your case.
+
+**Step 2: Gather Evidence**
+
+* Collect all relevant documents, records, and physical evidence to support your claims.
+* If necessary, obtain witness statements or hire expert witnesses.
+
+**Step 3: Prepare the Complaint**
+
+* **Caption:** Include the court name, case number (if assigned), and names of the parties involved.
+* **Introduction:** State the nature of the case and the relief you seek.
+* **Statement of Facts:** Detail the circumstances and allegations supporting your claims.
+* **Legal Basis:** Cite the relevant laws or regulations that apply to your case.
+* **Prayer for Relief:** Specify the specific outcome you want from the court.
+
+**Step 4: File the Complaint**
+
+* Visit the appropriate court clerk's office.
+* Pay the required filing fee.
+* Submit your complaint and supporting documents.
+
+**Step 5: Serve the Defendant**
+
+* Once the complaint is filed, you must serve the defendant with a copy of the summons and complaint.
+* There are various methods of service, such as personal delivery, certified mail, or publication.
+
+**Step 6: Answer to the Complaint**
+
+* The defendant has a certain period of time to file an answer to your complaint.
+* In the answer, the defendant may admit, deny, or partially admit the allegations.
+* They may also raise defenses or counterclaims.
+
+**Step 7: Pre-Trial Proceedings**
+
+* Discovery: Parties exchange information and evidence through requests for production, interrogatories, and depositions.
+* Motions: Parties may file motions to resolve legal issues, request sanctions, or seek summary judgment.
+* Settlement Negotiations: Parties may attempt to reach an agreement out of court.
+
+**Step 8: Trial**
+
+* If a settlement cannot be reached, the case will proceed to trial.
+* A jury or judge will hear the evidence and arguments.
+* The court will issue a verdict or judgment.
+
+**Step 9: Post-Trial Proceedings**
+
+* Judgment: The court will enter a judgment based on the verdict or decision.
+* Appeals: Either party may appeal the judgment to a higher court.
+* Enforcement: If the judgment is in your favor, you may need to enforce it through legal channels.
+
+**Additional Tips:**
+
+* Consult with an attorney for guidance throughout the process.
+* Keep a detailed record of all filings, communications, and expenses.
+* Be prepared for delays and setbacks.
+* Maintain a professional and respectful demeanor during court proceedings.
+2024-08-24 18:17:32,224 - INFO - 127.0.0.1 - - [24/Aug/2024 18:17:32] "POST /chat HTTP/1.1" 200 -
