@@ -3,6 +3,7 @@ import chatCotroller from '../controller/chat_controller.js'
 
 const router=express.Router()
 
-router.get('/',chatCotroller.saveChat)
+router.post('/savechat',chatCotroller.saveChat)
+router.get('/get-initial-chat',chatCotroller.getInitalChats)
 
 export default router

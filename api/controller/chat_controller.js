@@ -11,8 +11,7 @@ class chatCotroller
                 message: question
               });
             
-
-            console.log(answer.data)  
+            
 
             const chat = new Chat_db({
                 email,
@@ -32,9 +31,31 @@ class chatCotroller
         }
     }
 
-    static getChat=async(req,res)=>{
+    static getInitalChats=async(req,res)=>{
         try {
-            
+            const firstDocs = await Chat_db.aggregate([
+                // Sort by chatId and any other criteria (e.g., by creation time)
+                { $sort: { chatId: 1, _id: 1 } },
+                
+                // Group by chatId and pick the first document in each group
+                {
+                    $group: {
+                        _id: "$chatId",
+                        firstDoc: { $first: "$$ROOT" }
+                    }
+                },
+    
+                // Optionally, replace the root document with the firstDoc for easier access
+                {
+                    $replaceRoot: {
+                        newRoot: "$firstDoc"
+                    }
+                }
+            ]);
+    
+            return res.json(firstDocs);
+
+
         } catch (error) {
             console.log(error)
         }
