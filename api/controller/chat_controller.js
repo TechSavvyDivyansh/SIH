@@ -7,8 +7,8 @@ class chatCotroller
         try {
             const {question,email,chatId}=req.body
             console.log("data:",question,email,chatId)
-            const answer = await axios.post('https://sih-fwt9.onrender.com/chat', {
-                message: question
+            const answer = await axios.post('https://atharvmendhe18-sit-internal.hf.space/process', {
+                text: question
               });
             
             
