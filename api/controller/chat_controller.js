@@ -86,6 +86,18 @@ class chatCotroller
     }
 
 
+    static getAllChat=async(req,res)=>{
+        try {
+
+            const chats=await Chat_db.find({})
+            return res.json(chats)
+            
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+
 }
 
 export default chatCotroller
