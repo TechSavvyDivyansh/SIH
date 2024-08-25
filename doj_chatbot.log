@@ -195,3 +195,17 @@
 2024-08-25 15:17:14,787 - INFO - 127.0.0.1 - - [25/Aug/2024 15:17:14] "POST /chat HTTP/1.1" 200 -
 2024-08-25 15:17:42,047 - INFO - 127.0.0.1 - - [25/Aug/2024 15:17:42] "POST /chat HTTP/1.1" 200 -
 2024-08-25 15:17:54,233 - INFO - 127.0.0.1 - - [25/Aug/2024 15:17:54] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:33:10,194 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 15:33:10,194 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 15:33:16,703 - INFO - 127.0.0.1 - - [25/Aug/2024 15:33:16] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:34:10,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 15:34:10,923 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 15:34:16,336 - INFO - 127.0.0.1 - - [25/Aug/2024 15:34:16] "[33mPOST /chat HTTP/1.1[0m" 404 -
+2024-08-25 15:34:18,516 - INFO - 127.0.0.1 - - [25/Aug/2024 15:34:18] "[33mPOST /chat HTTP/1.1[0m" 404 -
+2024-08-25 15:34:31,589 - INFO - 127.0.0.1 - - [25/Aug/2024 15:34:31] "[33mPOST /chat HTTP/1.1[0m" 404 -
+2024-08-25 15:34:48,763 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 15:34:48,763 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 15:34:52,752 - INFO - 127.0.0.1 - - [25/Aug/2024 15:34:52] "POST /chat HTTP/1.1" 200 -
