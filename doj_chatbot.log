@@ -184,3 +184,14 @@
 * Be prepared for delays and setbacks.
 * Maintain a professional and respectful demeanor during court proceedings.
 2024-08-24 18:17:32,224 - INFO - 127.0.0.1 - - [24/Aug/2024 18:17:32] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:15:39,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 15:15:39,374 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 15:16:16,431 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 15:16:16,431 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 15:16:37,100 - INFO - 127.0.0.1 - - [25/Aug/2024 15:16:37] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:16:53,460 - INFO - 127.0.0.1 - - [25/Aug/2024 15:16:53] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:17:14,787 - INFO - 127.0.0.1 - - [25/Aug/2024 15:17:14] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:17:42,047 - INFO - 127.0.0.1 - - [25/Aug/2024 15:17:42] "POST /chat HTTP/1.1" 200 -
+2024-08-25 15:17:54,233 - INFO - 127.0.0.1 - - [25/Aug/2024 15:17:54] "POST /chat HTTP/1.1" 200 -
