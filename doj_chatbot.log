@@ -212,3 +212,69 @@
 2024-08-25 16:09:25,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2024-08-25 16:09:25,130 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 23:42:36,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 23:42:36,263 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 23:42:57,031 - INFO - User Input: what are different types of courts in us
+2024-08-25 23:43:04,493 - INFO - Bot Response (General): **Federal Courts**
+
+* **Supreme Court of the United States:** The highest court in the United States, with the power to interpret and apply the Constitution.
+* **Federal Courts of Appeals:** 13 regional courts that review decisions by federal district courts.
+* **Federal District Courts:** 94 courts that hear federal cases related to matters such as civil rights, bankruptcy, and criminal offenses.
+
+**State Courts**
+
+* **State Supreme Courts:** The highest courts in each state, responsible for interpreting state law and ensuring uniformity in the state's court system.
+* **State Intermediate Appellate Courts:** Typically called Courts of Appeals or Appellate Divisions, these courts review decisions by lower state courts.
+* **State Trial Courts:** Also known as Superior Courts or Circuit Courts, these courts handle most civil and criminal cases. They may include specialized divisions such as family court, probate court, and traffic court.
+
+**Specialized Courts**
+
+* **Bankruptcy Courts:** Handle cases related to bankruptcy proceedings.
+* **Tax Courts:** Rule on disputes between taxpayers and the Internal Revenue Service.
+* **Veterans Courts:** Specialized courts that handle cases involving veterans who have committed crimes or face mental health challenges.
+* **Juvenile Courts:** Handle cases involving minors who have committed offenses.
+* **Drug Courts:** Special courts that provide treatment and supervision for individuals with substance abuse problems who are charged with crimes.
+
+**Other Types**
+
+* **Municipal Courts:** Handle minor offenses and violations within a city or town.
+* **Tribal Courts:** Operate within Native American tribal lands and have jurisdiction over tribal members and matters involving tribal law.
+* **Administrative Law Courts:** Review decisions by government agencies and administrative bodies.
+* **Arbitration:** A private process where disputes are resolved outside of the court system, typically with the assistance of a neutral third party.
+2024-08-25 23:43:04,494 - INFO - 127.0.0.1 - - [25/Aug/2024 23:43:04] "POST /chat HTTP/1.1" 200 -
+2024-08-25 23:43:28,108 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-25 23:43:28,108 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-25 23:43:30,809 - INFO - User Input: what are different types of courts in us
+2024-08-25 23:43:36,754 - INFO - Bot Response (General): **Federal Courts**
+
+* **Supreme Court:** Highest court in the land.
+* **Appellate Courts:**
+    * **Circuit Courts of Appeal:** 13 courts that review cases from lower federal courts and state courts.
+    * **Federal Circuit Court:** Specialized court that handles patent, trademark, and copyright cases.
+* **District Courts:** Trial courts that have original jurisdiction over federal cases.
+
+**State Courts**
+
+**General Jurisdiction Courts:**
+
+* **Supreme Court (in some states):** Highest court in the state.
+* **Circuit Court/Superior Court:** Handles major criminal and civil cases.
+* **Probate Court:** Handles matters related to estates, wills, and guardianships.
+* **Family Court:** Handles cases involving divorce, child custody, and domestic violence.
+
+**Limited Jurisdiction Courts:**
+
+* **Municipal Court/City Court:** Handles minor criminal and civil cases within a municipality.
+* **Traffic Court:** Handles traffic violations.
+* **Justice of the Peace Court:** Handles small claims and minor offenses.
+
+**Other Types of Courts**
+
+* **Bankruptcy Court:** Handles bankruptcy proceedings.
+* **Tax Court:** Handles tax-related disputes.
+* **Tribal Court:** Handles cases within Native American reservations.
+* **Military Courts:** Handle cases involving members of the armed forces.
+* **Administrative Courts:** Review decisions made by administrative agencies.
+2024-08-25 23:43:36,755 - INFO - 127.0.0.1 - - [25/Aug/2024 23:43:36] "POST /chat HTTP/1.1" 200 -

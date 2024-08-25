@@ -9,13 +9,14 @@ from typing import List, Dict, Optional
 from datetime import datetime
 import re
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
 
 # Configure logging
 logging.basicConfig(filename='doj_chatbot.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set up the API key
-GEMINI_API_KEY = 'AIzaSyBUN9ZHUnyW9rI2Y12CpywGf0ZNeOXL3-8'
+GEMINI_API_KEY = 'AIzaSyAH-EUUy-ZfWR3P6rfI-cxKVauy4o3TzQU'
 
 genai.configure(api_key=GEMINI_API_KEY)
 
@@ -159,8 +160,11 @@ def sanitize_input(input_string: str) -> str:
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/chat', methods=['POST'])
+@cross_origin()
 def chat_endpoint():
     data = request.json
     user_input = data.get('message', '')
